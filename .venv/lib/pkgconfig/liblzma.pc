@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/petraprzybylova/app_heureka/.venv
+exec_prefix=/Users/petraprzybylova/app_heureka/.venv
+libdir=/Users/petraprzybylova/app_heureka/.venv/lib
+includedir=/Users/petraprzybylova/app_heureka/.venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.5
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -Qunused-arguments -pthread -lpthread

@@ -1,0 +1,3 @@
+eval "$(/Users/petraprzybylova/miniconda3/bin/conda shell.posix hook)"
+conda activate  /Users/petraprzybylova/app_heureka/.venv
+python /Users/petraprzybylova/.vscode/extensions/ms-python.python-2022.0.1786462952/pythonFiles/get_output_via_markers.py -m black --diff --quiet /Users/petraprzybylova/app_heureka/tests/test_detector.py.2441ca78b258af430431e3a999d95633.tmp
