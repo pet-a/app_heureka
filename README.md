@@ -43,3 +43,5 @@ After installing all the dependencies you can run the project with this command:
 ```
 poetry run start
 ```
+
+The aplication will be visible in address http://127.0.0.1:8000/docs
