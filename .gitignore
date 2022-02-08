@@ -1,1 +1,4 @@
-.vscode
+./.vscode
+./.venv
+./src/app_heureka/__pycache__
+./src/app_heureka/__init__.py
