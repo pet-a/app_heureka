@@ -33,6 +33,8 @@ def count_words(input_text: str, limit_of_words=5):
 
     if number_of_words <= limit_of_words:
         raise Exception("Words in text should be more than", limit_of_words)
+    else:
+        return input_text
 
 
 @app.get("/predict-language")
@@ -43,7 +45,7 @@ def predict_language(input_text: str):
     :return: prediction
     """
     # checks the number of words in a text
-    input_text = count_words(count_words)
+    input_text = count_words(input_text)
 
     # prediction
     lang_identifier = gcld3.NNetLanguageIdentifier(10, 1000)
