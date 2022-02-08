@@ -23,7 +23,12 @@ cd app_heureka
 create enviroment using conda
 
 ```
-conda create -n myenv python=3.8
+conda create --prefix myenv python=3.8
+```
+activate the new conda enviroment (maybe you will need to at first deactivate the old one)
+```
+conda deactivate
+conda activate myenv
 ```
 
 and install all the dependencies using poetry
