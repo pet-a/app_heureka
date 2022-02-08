@@ -10,7 +10,7 @@ This project uses [poetry](https://python-poetry.org/) dependency manager and co
 Install the poetry with the command below and conda from [this](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) website first
 
 ```
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
 ```
 
 after installing poetry and conda clone this Git repository and change directory to app_heureka
